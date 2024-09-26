@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 400px;
+}
+
+.product {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  top: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-body {
+  padding: 10px;
+  width: 420px;
+}
+
+.product-body h6 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.product-body p:nth-of-type(2) {
+  margin: 15px 0;
+}
+
+.product-body button {
+  padding: 5px 9px;
+}

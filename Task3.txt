@@ -1,0 +1,27 @@
+Q3. Explain the difference between npm and npx using the create-react-app code example.
+Answer - 
+
+npm - 
+
+* npm stands for Node Package Manager and it is the default package manager for Node.js.
+
+* npm is a tool that use to install packages.  
+
+* Packages used by npm are installed globally. you have to care about pollution in the long term.
+
+* then run package through npm then you have to specify that package in your package.json and install it locally.
+
+* to use 'create-react-app' in npm the commands are 'npm install create-react-app' then 'create-react-app myapp'.
+
+
+npx - 
+
+* npx stands for Node Package Execute and it comes with the npm.
+
+* npx is a tool that use to execute packages.
+
+* Packages used by npx are not installed globally. you don't have to worry about for pollution in the long term.
+
+* a package can be executable without installing the package.
+
+* in npx you can create a react app without installing the package.

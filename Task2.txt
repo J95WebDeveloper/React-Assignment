@@ -1,0 +1,48 @@
+Q2. Explain the key difference and use cases between React's Client-Side Rendering (CSR) and Server-Side Rendering (SSR)
+    Provide examples of scenarios where each approach is advantageous, and discuss the challenges associated with using 
+    React in both contexts.
+
+Answer - 
+
+Client-Side Rendering (CSR) - 
+
+* Client-Side Rendering is the process of rendering web pages on the client using JavaScript.
+
+* the server sends  the initial HTML file, but the client then uses JavaScript to dynamically update the 
+  page as needed.
+
+* Client-Side Rendering is commonly used for web applications that require a high degree of interactivity, 
+  such as social media platforms or e-commerce websites. 
+
+* the client then uses JavaScript to update the page as needed, without needing to reload the entire page. 
+
+* Example - most popular CSR framework is React.
+
+Advantages - 
+
+* More dynamic and interactive web applications.
+* can provide a smoother and more seamless user experience.
+* can reduce the need for additional server requests.
+
+
+Server-Side Rendering (SSR) - 
+ 
+* Server-Side Rendering is the process of rendering web pages on the server and sending the fully rendered 
+  HTML to the Client.
+
+* Server-Side Rendering often interact with databases and external API's.
+
+* the server generates data, and sends it to the client as a complete page.
+
+* Server-Side Rendering is commonly used for content-heavy websites, such as blogs or news websites, where 
+  fast initial load times and good SEO Optimization are Important.
+
+* Example - most popular SSR framework is Next.js.
+
+Advantages - 
+
+* Faster initial load times
+* Improved SEO Optimization.
+* can provide a better user experience for user 
+  with slower internet connections or less 
+  powerful devices.
